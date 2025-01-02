@@ -1,86 +1,133 @@
-# TOPICS
-### Just listing out the topics that I mentioned in the blog, I'll update and sort these out a little in some time
+## 100 Embedded C Concepts
 
-1. **Data Types**  
-   - int, float, long, double, short, char, string, array
+### **1. Basics of C Language**
+1. Data types (int, char, float, double)
+2. Storage classes (auto, static, extern, register)
+3. Constants and macros (`#define`)
+4. Conditional statements (`if`, `else`, `switch`)
+5. Loops (`for`, `while`, `do-while`)
+6. Functions (declaration, definition, and usage)
+7. Arrays and pointers
+8. Strings and string manipulation functions
+9. Input and output (`printf`, `scanf`, `getchar`, `putchar`)
+10. Preprocessor directives
 
-2. **Operators**  
-   - Assignment, Comparison, Arithmetic, Logical, Bitwise, Ternary, Relational, Unary
+### **2. Advanced C Language Concepts**
+11. Pointers to pointers
+12. Dynamic memory allocation (`malloc`, `calloc`, `realloc`, `free`)
+13. Function pointers
+14. Typedef and `enum`
+15. Inline functions
+16. Volatile keyword
+17. Const qualifier and its implications
+18. Bitwise operators
+19. Union and structure
+20. Sizeof operator
 
-3. **Flow Controllers**  
-   - If, elseif, else
+### **3. Embedded Systems-Specific C Concepts**
+21. Interrupt handling in C
+22. Writing and using ISR (Interrupt Service Routines)
+23. GPIO programming in C
+24. Using timers and counters
+25. PWM (Pulse Width Modulation) using C
+26. Watchdog timer programming
+27. ADC (Analog-to-Digital Conversion) implementation
+28. UART communication (serial port programming)
+29. I2C communication protocol in C
+30. SPI communication protocol in C
 
-4. **Switch Case and Comparison vs If-else**
+### **4. Memory Management**
+31. RAM vs ROM usage
+32. Stack and heap in embedded systems
+33. Memory-mapped I/O
+34. Accessing hardware registers using pointers
+35. Bootloaders and memory mapping
 
-5. **Loops**  
-   - for, while, do-while
+### **5. Optimization Techniques**
+36. Inline assembly for performance optimization
+37. Loop unrolling
+38. Reducing memory footprint
+39. Code profiling and optimization
+40. Function inlining
 
-6. **Break and Continue**
+### **6. Real-Time Operating Systems (RTOS)**
+41. Task scheduling in RTOS
+42. Task priorities
+43. Mutexes and semaphores
+44. Inter-task communication
+45. Context switching
 
-7. **Functions and Recursion**
+### **7. Embedded Debugging and Testing**
+46. Debugging with GDB
+47. Unit testing in embedded C
+48. Using breakpoints
+49. Code coverage tools
+50. Logging and error handling
 
-8. **Pointers**
+### **8. Low-Level Programming**
+51. Working with registers
+52. Writing startup code
+53. Assembly language integration
+54. Writing linker scripts
+55. Understanding interrupts and priorities
 
-9. **Call by Value and Reference**
+### **9. Peripheral Programming**
+56. Controlling LEDs with GPIO
+57. Interfacing with LCD displays
+58. Reading from sensors
+59. Motor control using embedded C
+60. EEPROM programming
 
-10. **Macros**
+### **10. Communication Protocols**
+61. CAN bus programming
+62. Modbus protocol
+63. Bluetooth communication
+64. Zigbee protocol
+65. USB communication
 
-11. **Arrays**  
-    - Single and Multi-Dimensional
+### **11. Compiler and Build Tools**
+66. Makefiles and their structure
+67. Using cross-compilers
+68. Understanding compiler optimizations
+69. Linking and relocation concepts
+70. Understanding object files
 
-12. **Number Systems and Binary Arithmetic**
+### **12. Embedded C Best Practices**
+71. Writing portable code
+72. Avoiding undefined behavior
+73. Using MISRA C standards
+74. Static code analysis
+75. Proper use of comments
 
-13. **Header and Source Files**
+### **13. Safety and Reliability**
+76. Watchdog timer for system recovery
+77. CRC (Cyclic Redundancy Check) implementation
+78. Fail-safe mechanisms
+79. Handling hardware exceptions
+80. Using redundant systems
 
-14. **Macros**  
-    - Function Macros  
-    - Importance of Macros  
-    - Predefined Macros
+### **14. Power Management**
+81. Low-power modes in microcontrollers
+82. Optimizing for battery life
+83. Wake-up sources and handling
+84. Dynamic power scaling
+85. Using sleep modes effectively
 
-15. **Storage Classes**  
-    - Auto, Extern, Register
+### **15. Embedded Software Development Process**
+86. Agile methodology in embedded systems
+87. Continuous integration for embedded projects
+88. Version control systems (Git basics)
+89. Writing technical documentation
+90. Managing embedded software releases
 
-16. **Floating Point Operations**
-
-17. **Streams**
-
-18. **Build Process**  
-    - Preprocessors, Parsers, Object Builder, Linker, Assembler, and Post-processing
-
-19. **MakeFile**
-
-20. **Scope and Scope Limiters**
-
-21. **Static and Volatile**
-
-22. **Extern**
-
-23. **Structs and Unions**  
-    - Difference, Applications
-
-24. **Endianness**
-
-25. **Bit Manipulation**
-
-26. **Memory Management**  
-    - Stack, Heap (Application Oriented)
-
-27. **Basic DSA**  
-    - Array, Stack, Queue, Linked Lists
-
-28. **Compiler Optimization**  
-    - How it affects the code being written
-
-29. **Classes and Objects**
-
-30. **Member Functions**
-
-31. **Friend Functions**
-
-32. **Constructors and Destructors**
-
-33. **Inheritance**
-
-34. **Polymorphism**
-
-35. **Abstraction**
+### **16. Miscellaneous**
+91. Understanding embedded Linux basics
+92. Writing device drivers
+93. Real-time clocks and timers
+94. Bootloader programming
+95. Dual-bank firmware updates
+96. Using simulators for development
+97. Implementing circular buffers
+98. Understanding hardware/software co-design
+99. Embedded security basics (e.g., secure boot)
+100. Handling system crashes and debugging core dumps
